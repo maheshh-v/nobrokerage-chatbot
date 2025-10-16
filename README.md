@@ -72,7 +72,7 @@ streamlit run app.py
 ## Links
 
 - **GitHub:** https://github.com/maheshh-v/nobrokerage-chatbot
-- **Live Demo:** [https://YOUR_APP.streamlit.app](https://nobrokerage-chatbot.streamlit.app/)
+- **Live Demo:** https://nobrokerage-chatbot.streamlit.app
 
 
 
