@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+*.egg-info/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Not for GitHub
+extra_docs/
+NOTES.md
+VIDEO_SCRIPT.md
+SUBMISSION_GUIDE.md
+AI Engineer Intern Task*.md
+MAHESH_VYAS*.pdf
