@@ -36,10 +36,10 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    project = pd.read_csv("project.csv")
-    address = pd.read_csv("ProjectAddress.csv")
-    config = pd.read_csv("ProjectConfiguration.csv")
-    variant = pd.read_csv("ProjectConfigurationVariant.csv")
+    project = pd.read_csv("data/project.csv")
+    address = pd.read_csv("data/ProjectAddress.csv")
+    config = pd.read_csv("data/ProjectConfiguration.csv")
+    variant = pd.read_csv("data/ProjectConfigurationVariant.csv")
     
     df = project.merge(address, left_on="id", right_on="projectId", how="left", suffixes=('', '_addr'))
     df = df.merge(config, left_on="id", right_on="projectId", how="left", suffixes=('', '_config'))

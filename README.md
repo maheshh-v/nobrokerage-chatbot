@@ -19,7 +19,8 @@ Type "2BHK in Mumbai" and get matching properties with summary and cards.
 ├── query_parser.py          # Extracts filters
 ├── search_engine.py         # Searches data
 ├── summary_generator.py     # Creates summaries
-└── 4 CSV files             # Property data
+├── requirements.txt         # Dependencies
+└── data/                    # 4 CSV files with property data
 ```
 
 ## Setup
