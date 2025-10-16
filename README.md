@@ -69,6 +69,11 @@ streamlit run app.py
 - Implement API rate limiting
 - Add analytics tracking
 
+## Links
+
+- **GitHub:** https://github.com/maheshh-v/nobrokerage-chatbot
+- **Live Demo:** [https://YOUR_APP.streamlit.app](https://nobrokerage-chatbot.streamlit.app/)
+
 
 
 ---
